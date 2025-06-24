@@ -29,11 +29,11 @@ Edit
 ## 🔌 Installation & Usage Instructions
 
 ### ✅ 1. Install JSON Server
-bash
+
 npm install -g json-server
 
 ### ✅ 2. Run the backend
-bash
+
 json-server --watch db.json --port 3000
 
 - This will serve your blog post data on http://localhost:3000/posts.
