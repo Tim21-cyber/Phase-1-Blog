@@ -1,0 +1,61 @@
+
+:root {
+  --bg: #f9f9f9;
+  --text: #222;
+  --accent: #4f46e5;
+  --card: #fff;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  font-family: 'Segoe UI', sans-serif;
+  color: var(--text);
+}
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: var(--accent);
+  color: white;
+}
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.subtitle {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+#blog-posts {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  display: grid;
+  gap: 2rem;
+}
+.post {
+  background: var(--card);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+.post:hover {
+  transform: translateY(-4px);
+}
+.post img {
+  max-width: 100%;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+.post h2 {
+  margin: 0.5rem 0;
+  color: var(--accent);
+}
+.post small {
+  color: #777;
+}
+.post p {
+  margin-top: 0.5rem;
+  line-height: 1.6;
+}
